@@ -22,10 +22,12 @@
                     },
                     colors: {
                         brand: {
-                            light: '#FAF9F6',
-                            dark: '#1C2321', 
-                            accent: '#C59365', /* Elegant warm terracotta/gold */
-                            muted: '#6D7C77',
+                            light: '#F9F6F0',
+                            dark: '#2C3539',
+                            primary: '#5B7053',
+                            secondary: '#B86B52',
+                            accent: '#C5A059',
+                            muted: '#7A8B86',
                             wa: '#25D366'
                         }
                     },
@@ -53,12 +55,12 @@
     <style>
         body {
             -webkit-font-smoothing: antialiased;
-            background-color: #FAF9F6;
+            background-color: #F9F6F0;
             /* Subtle mesh gradient background for attraction */
             background-image: 
-                radial-gradient(at 0% 0%, rgba(197, 147, 101, 0.08) 0px, transparent 50%),
-                radial-gradient(at 100% 0%, rgba(109, 124, 119, 0.08) 0px, transparent 50%),
-                radial-gradient(at 100% 100%, rgba(197, 147, 101, 0.05) 0px, transparent 50%);
+                radial-gradient(at 0% 0%, rgba(197, 160, 89, 0.08) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(91, 112, 83, 0.08) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(197, 160, 89, 0.05) 0px, transparent 50%);
         }
         
         .fade-in-up {
@@ -96,7 +98,7 @@
             <a href="#" class="block h-16 transition-transform duration-300 hover:scale-105">
                 <img src="logo.png" alt="Antarang Wellness" class="h-full object-contain">
             </a>
-            <a href="#booking" class="bg-brand-dark text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-brand-accent transition-all duration-300 shadow-lg hover:shadow-brand-accent/30 hover:-translate-y-0.5">Book Session</a>
+            <a href="#booking" class="bg-brand-primary text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-brand-secondary transition-all duration-300 shadow-lg hover:shadow-brand-accent/30 hover:-translate-y-0.5">Book Session</a>
         </div>
     </header>
 
@@ -119,7 +121,7 @@
                     Led by <strong class="font-medium text-brand-dark">Ms. Sonali Jayantilal Gujarathi</strong>. Providing specialized, empathetic counseling designed for profound life outcomes.
                 </p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="#booking" class="inline-flex items-center justify-center bg-brand-dark text-white px-10 py-4 rounded-full text-base font-medium hover:bg-brand-accent transition-all duration-300 shadow-xl hover:shadow-brand-accent/40 transform hover:-translate-y-1">
+                    <a href="#booking" class="inline-flex items-center justify-center bg-brand-primary text-white px-10 py-4 rounded-full text-base font-medium hover:bg-brand-secondary transition-all duration-300 shadow-xl hover:shadow-brand-accent/40 transform hover:-translate-y-1">
                         Book 50-Min Session
                     </a>
                     <a href="#about" class="inline-flex items-center justify-center bg-white border border-gray-200 text-brand-dark px-10 py-4 rounded-full text-base font-medium hover:border-brand-accent hover:text-brand-accent transition-colors duration-300">
@@ -427,3 +429,5 @@
     </script>
 </body>
 </html>
+
+
